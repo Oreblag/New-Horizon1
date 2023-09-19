@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Quicksand:wght@500&family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(-220deg, rgba(252,152,70,1) 63%, rgba(230,63,251,1) 100%);
+}
+
+.timeline-container {
+    width: 28rem;
+    height: 30rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    filter: drop-shadow(8px 15px 25px rgb(0, 0, 0, 0.5));
+    margin: 10px 0px;
+}
+.cover-photo {
+    height: 335px;
+    width: 28rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-image: url(/timeline-images/Ant-Lieutenant.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.233);
+    background-blend-mode: darken
+}
+.avi img {
+    height: 240px;
+    width: 240px;
+    object-fit: cover;
+    border: none;
+    border-radius: 100%;
+    margin: -200px auto 65px;
+    background-color: white;
+    box-shadow: 0px 8px 20px rgb(0, 0, 0, 0.5);
+}
+.timeline-content {
+    padding: 0 40px;
+    background-color: white;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.timeline-content .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+}
+.timeline-content .header .right {
+    display: flex;
+    flex-direction: column;
+    line-height: 12px;
+}
+span {
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.profile-name {
+    margin-top: 100px;
+}
+.profile-name h1 {
+    font-size: 30px;
+}
+.profile-name p {
+    margin-top: 2px;
+    font-size: 16px;
+    color: grey;
+}
+.followers-tab {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.followers-tab h2 {
+    color: rgba(0, 195, 255, 0.753);
+    font-size: 30px;
+}
+.followers-tab .right {
+    margin-left: -40px;
+}
+.followers-tab p {
+    font-size: 15px;
+    color: grey;
+}
+button {
+    margin-top: 30px;
+    padding: 12px 145px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5rem;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 255, 0, 0.596);
+    border: 1px solid yellow;
+    color: black;
+}
+button:active {
+    transform: scale(0.98);
+}
+.footer {
+    padding: 20px 0px 40px 0px;
+}
+.footer p {
+    font-size: 21px;
+    color: grey;
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media (max-width: 890px) {
+    .main {
+        padding-top: 1rem;
+        padding-bottom: 8rem;
+    }
+
+}
+@media (max-width: 460px) {
+    .main {
+        padding-top: 1rem;
+        padding-bottom: 8rem;
+    }
+
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Quicksand:wght@500&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 0.2rem;
+    background-color: white;
+    padding: 3rem;
+    
+}
+.pagecontent-container {
+    width: 50rem;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+.apple-container {
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: 8px 20px 20px 8px rgb(0, 0, 0, 0.3);
+}
+.flex-headerimg ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.flex-headerimg li {
+    list-style: none;
+}
+.svg-share {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.svg {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.apple-image {
+    background-color: rgb(70, 247, 30);
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+
+.apple-img {
+    height: 400px;
+    width: 400px;
+    margin-left: -70px;
+    filter: drop-shadow(2px 25px 45px rgba(0, 0, 0, 0.788));
+}
+
+.footer-sectionimages ul {
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.footer-sectionimages li {
+    list-style: none;
+    border: 1px solid black;
+}
+.footer-sectionimages img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+
+.content-container {
+    width: 23rem;
+    border: none;
+}
+
+.content-container h1 {
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    margin-top: 0.5rem;
+}
+
+.subheader {
+    margin-top: 0.2rem;
+    font-size: 20px;
+    color: grey;
+}
+.amt {
+    margin-top: 20px;
+    font-size: 23px;
+    color: red;
+}
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.select-applecolors ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.select-applecolors li {
+    list-style: none;
+}
+.select-applecolors img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.select-applecolors img:hover {
+    border: 1px solid black;
+}
+.applebenefits li {
+    font-size: 18px;
+    margin-left: 10px;
+}
+button {
+    margin-top: 30px;
+    padding: 20px 70px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 0, 0, 0.733);
+}
+button:active {
+    transform: scale(0.98);
+}
+.next-page-button {
+    margin-top: 20px;
+}
+.next-pg-btn {
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 760px) {
+    .main {
+        height: 100%;
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+    .container {
+        width: 25rem;
+    }
+    .pagecontent-container {
+        flex-direction: column;
+        margin: 10px auto 0;
+        
+    }
+    
+    .content-container {
+        margin-top: 60px;
+    }
+}
+@media (max-width: 390px) {
+    .main {
+        height: 100%;
+        width: 100%;
+        padding: 0.8rem 0.2rem;
+    }
+    .container {
+        width: 15rem;
+    }
+    .pagecontent-container {
+        flex-direction: column;
+        margin-left: -25px;
+        margin-top: -20px;
+        
+    }
+    .apple-container {
+        width: 18rem;
+    }
+    .apple-img {
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    }
+    .footer-sectionimages img {
+        height: 50px;
+        width: 50px;
+    }
+    .content-container {
+        margin-top: 30px;
+    }
+    .applebenefits li {
+        font-size: 15px;
+    }
+}

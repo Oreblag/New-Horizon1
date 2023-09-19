@@ -1,0 +1,214 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.frame-one {
+    width: 100vw;
+    height: 50vh;
+    background: rgb(3,48,28);
+    background: linear-gradient(90deg, rgba(3,48,28,0.9920343137254902) 0%, rgba(9,121,88,1) 35%, rgba(146,213,96,1) 100%);
+    text-align: center;
+}
+.frame-one h1 {
+    padding-top: 40px;
+    font-size: 60px;
+    color: white;
+}
+.frame-one p {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.input-elements {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.search-input {
+    width: 50%;
+    padding: 20px 10px;
+    margin-top: 20px;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    caret-color: rgba(128, 128, 128, 0.938);
+    color: rgba(128, 128, 128, 0.938);
+}
+.search-input::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 20px;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: rgba(128, 128, 128, 0.938);
+}
+
+.btn-search {
+    height: 50px;
+    width: 150px;
+    border-radius: 5rem;
+    border: none;
+    background-color: lightgreen;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 28px;
+    margin-left: -160px;
+    cursor: pointer;
+}
+.btn-search:hover {
+    background-color: rgba(144, 238, 144, 0.692);
+}
+.btn-search:active {
+    transform: scale(0.98);
+}
+.frame-two {
+    width: 100vw;
+    height: 50vh;
+    background-color: lightgreen;
+}
+.flex-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    top: -80px;
+}
+.web-design-container {
+    height: 420px;
+    width: 400px;
+    padding: 30px;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.8);
+}
+.webd-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.webd-container-header h1 {
+    font-size: 25px;
+}
+.webd-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: skyblue;
+}
+.web-design-text {
+    margin-top: 20px;
+}
+.webd-img {
+    display: flex;
+    justify-content: center;
+}
+.finance-container {
+    height: 420px;
+    width: 700px;
+    background-image: url(landing-pg-images/finance-image.png);
+    background-size: cover;
+    padding: 30px;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.692);
+    background-blend-mode: darken;
+    box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.8);
+}
+.finance-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.finance-container-header h1 {
+    font-size: 25px;
+    color: white;
+}
+.finance-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+}
+.finace-design-text {
+    margin-top: 20px;
+    color: white;
+}
+.finance-container button {
+    padding: 10px 40px;
+    border-radius: 5rem;
+    border: none;
+    background-color: lightgreen;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.finance-container button:hover {
+    background-color: rgba(144, 238, 144, 0.692)
+}
+.finance-container button:active {
+    transform: scale(0.98);
+}
+.finance-footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left p {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.share-icon {
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.next-page-button {
+    margin-top: 370px;
+}
+.next-pg-btn {
+    text-decoration: none;
+    padding: 10px;
+    background-color: lightgreen;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.next-pg-btn:hover {
+    background-color: black;
+}
